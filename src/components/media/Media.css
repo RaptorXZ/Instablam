@@ -1,0 +1,45 @@
+#camera-container video {
+    min-width: 60vw;
+    min-height: 40vh;
+    max-width: 80vw;
+    max-height: 60vh;
+    aspect-ratio: 1.7777778;
+    border: 1px solid white;
+    background-color: darkgray;
+}
+
+.media-button {
+    background-color: darkgray;
+    width: max-content;
+    height: max-content;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: auto;
+}
+.video-icon {
+line-height: 48px;
+}
+#toggle-video :hover {
+cursor: pointer;
+}
+#media-button-container button {
+    margin: .5em;
+}
+
+#photo-container {
+    margin: auto;
+    padding: 1em;
+    width: max-content;
+    border: 1px solid white;
+}
+#photo-container img {
+    min-width: 60vw;
+    min-height: 40vh;
+    max-width: 80vw;
+    max-height: 60vh;
+    aspect-ratio: 1.7777778;
+}
+
+.hidden {
+    display: none;
+}
